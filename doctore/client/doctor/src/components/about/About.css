@@ -1,0 +1,33 @@
+ .about-container{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0083c907;
+}
+
+.about-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 4rem;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.about-form >p{
+    width: 18rem;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}  
+
+
+

@@ -1,0 +1,46 @@
+.navbar-container{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(2px);
+    z-index: 2;
+}
+
+.navbar-logo{
+    padding: 1rem;
+    font-size: 2.2rem;
+    font-family: "caveat", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.navbar-logo>span{
+    color: #0081C9;
+    font-family: "caveat", sans-serif;
+}
+
+.navbar-links{
+    display: flex;
+    padding: 0 2rem ;
+    gap: 1rem;
+}
+.navbar-links>a{
+    text-decoration: none;
+    color: rgb(69, 69, 69);
+    transition: 0.5s;
+}
+.navbar-links>a:hover{
+    color:#0081C9
+}
+
+
+
+
+.navbar-profile{
+    height: 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}

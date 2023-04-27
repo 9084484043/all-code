@@ -1,0 +1,24 @@
+.products-container{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 4rem;
+    flex-wrap: wrap;
+
+}
+
+.products-container >button{
+    position: fixed;
+    bottom: 2rem;
+    padding: 1rem ;
+    border-radius: 10px;
+    background-color: #0081C9;
+    color:white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.products-container>button:hover{
+    background-color: #0083c979
+}

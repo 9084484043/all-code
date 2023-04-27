@@ -1,0 +1,38 @@
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.home-heading{
+    font-family: "caveat", sans-serif;
+    font-size: 4rem;
+    margin: 1rem;
+    padding: 1rem;
+    pointer-events: none;
+}
+.home-heading > span {
+    font-size: 5rem;
+    font-family: "caveat", sans-serif;
+    color:#0081C9
+}
+
+.home-button{
+    padding: .75rem 1rem;
+    margin-top: 3rem;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    transition:0.5s
+}
+
+.home-button:hover{
+    background-color: #0081C9;
+    color:white;
+    border:1px solid #0081C9
+}
+
+

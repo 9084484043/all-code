@@ -1,0 +1,24 @@
+.productCard-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    cursor: pointer;
+
+}
+
+.productCard-container>img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.productCard-container >label> span{
+    color: #0081C9
+}
